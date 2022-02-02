@@ -32,7 +32,6 @@ type ContactsResponse struct {
 	IdentityProfiles  []IdentityProfile          `json:"identity-profiles"`
 	Properties        map[string]ContactProperty `json:"properties"`
 	FormSubmissions   []interface{}              `json:"form-submissions"`
-	AssociatedCompany AssociatedCompany          `json:"associated-company,omitempty"`
 }
 
 // AssociatedCompany object
